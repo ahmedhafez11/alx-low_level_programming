@@ -1,22 +1,22 @@
 #include "main.h"
 /**
  * positive_or_negative - tell us if the number is + or -
- * @i: integer
+ * @n: integer
  * Return: always0
  */
 
-void positive_or_negative(int i)
+void positive_or_negative(int n)
 {
-	if (i > 0)
+	if (n > 0)
 	{
-		printf("%d is positive\n", i);
+		printf("%d is positive\n", n);
 	}
-	else if (i < 0)
+	else if (n < 0)
 	{
-		printf("%d is negative\n", i);
+		printf("%d is negative\n", n);
 	}
 	else
 	{
-		printf("%d is zero\n", i);
+		printf("%d is zero\n", n);
 	}
 }
