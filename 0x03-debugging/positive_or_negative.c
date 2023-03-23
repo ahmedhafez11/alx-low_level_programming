@@ -1,4 +1,8 @@
 #include "main.h"
+/**
+ * positive_or_negative - tell us if the number is + or -
+ * Return: always0
+ */
 
 void positive_or_negative(int i)
 {
