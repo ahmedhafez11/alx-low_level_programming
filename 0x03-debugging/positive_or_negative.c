@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * positive_or_negative - tell us if the number is + or -
+ * @i: integer
  * Return: always0
  */
 
