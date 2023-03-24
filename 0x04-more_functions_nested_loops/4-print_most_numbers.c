@@ -2,7 +2,7 @@
 
 /**
  * print_most_numbers - print numbers from 0 to 9 except 2, 4
- * Return: numbers from 0 to 9 except 2, 4
+ * Return: void
  */
 
 void print_most_numbers(void)
@@ -14,7 +14,7 @@ void print_most_numbers(void)
 		if (i == 2 || i == 4)
 			continue;
 		else
-			_putchar(i);
+			_putchar(i + '0');
 	}
 	_putchar('\n');
 }
