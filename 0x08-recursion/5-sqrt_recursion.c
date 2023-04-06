@@ -26,5 +26,5 @@ int sqrt(int n, int i)
 		return (-1);
 	if (i * i == n)
 		return (i);
-	return (actual_sqrt_recursion(n, i + 1));
+	return (sqrt(n, i + 1));
 }
