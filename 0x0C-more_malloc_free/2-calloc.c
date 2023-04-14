@@ -3,11 +3,11 @@
 
 /**
  * *_memset - fills memory by bytes
- * @c: memory area to fill 
+ * @c: memory area to fill
  * @a: char to copy
  * @n: number of copies
  *
- * Return: pointer 
+ * Return: pointer
  */
 char *_memset(char *c, char a, unsigned int n)
 {
