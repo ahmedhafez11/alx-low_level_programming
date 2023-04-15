@@ -2,9 +2,8 @@
 #include "main.h"
 
 /**
- * _atoi - converts a string to an integer
- * @s: string to be converted
- *
+ * _atoi - converts string to integer
+ * @s: string
  * Return: the int converted from the string
  */
 int _atoi(char *s)
@@ -45,13 +44,11 @@ int _atoi(char *s)
 
 	return (n);
 }
-
 /**
- * main - multiplies two numbers
+ * main - multiplies two integars
  * @argc: number of arguments
  * @argv: array of arguments
- *
- * Return: 0 (Success), 1 (Error)
+ * Return: 0 or 1
  */
 int main(int argc, char *argv[])
 {
