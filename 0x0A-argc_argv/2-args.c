@@ -10,7 +10,7 @@ int main(int arnum, char *ararg[])
 {
 	int i;
 
-	for (i = 0; i < argnum; i++)
+	for (i = 0; i < arnum; i++)
 	{
 		printf("%s\n", ararg[i]);
 	}
