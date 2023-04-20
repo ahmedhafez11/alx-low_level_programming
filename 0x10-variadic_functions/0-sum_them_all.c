@@ -1,14 +1,14 @@
 #include "variadic_functions.h"
 #include <stdarg.h>
 /**
- * sum_them_all - sum of variables 
- * @n: the number of arguments 
+ * sum_them_all - sum of variables
+ * @n: the number of arguments
  * @...: the numbers to sum
- * Return: integer number 
+ * Return: integer number
  */
 int sum_them_all(const unsigned int n, ...)
 {
-	int s = 0; 
+	int s = 0;
 	int i = n;
 	va_list ap;
 
