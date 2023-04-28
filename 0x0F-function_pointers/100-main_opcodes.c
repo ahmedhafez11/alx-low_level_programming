@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * main - prints the code
- * @argc: number of elements 
+ * @argc: number of elements
  * @argv: array
  * Return: always 0
  */
