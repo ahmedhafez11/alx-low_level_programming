@@ -2,8 +2,8 @@
 
 void print(void) __attribute__ ((constructor));
 /**
- * print - print something 
- * Return: void 
+ * print - print something
+ * Return: void
  */
 void print(void)
 {
