@@ -40,7 +40,7 @@ int op_mul(int a, int b)
  * op_div - return division
  * @a: first number
  * @b: second number
- * Return: division 
+ * Return: division
  */
 int op_div(int a, int b)
 {
@@ -49,8 +49,8 @@ int op_div(int a, int b)
 /**
  * op_mod - return remainder
  * @a: The first number
- * @b: second number
- * Return: remainder
+ *  @b: second number
+ *  Return: remainder
  */
 int op_mod(int a, int b)
 {

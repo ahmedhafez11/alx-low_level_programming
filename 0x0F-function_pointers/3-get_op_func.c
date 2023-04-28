@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * get_op_func - choose between functions
- * @s: operator 
+ * @s: operator
  * Return: pointer
  */
 int (*get_op_func(char *s))(int, int)
