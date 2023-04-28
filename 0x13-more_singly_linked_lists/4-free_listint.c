@@ -2,6 +2,7 @@
 /**
  * free_listint - make the linked list free of elements
  * @head: pointer
+ * Return: void
  */
 void free_listint(listint_t *head)
 {
