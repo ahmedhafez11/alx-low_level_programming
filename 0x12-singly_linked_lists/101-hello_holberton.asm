@@ -1,4 +1,5 @@
 section		.text
+	global   main
 main:
 	  mov   edi, format
 	  xor   eax, eax
