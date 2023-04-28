@@ -1,58 +1,58 @@
 #include "3-calc.h"
 
-int op_add(int i, int j);
-int op_sub(int i, int j);
-int op_mul(int i, int j);
-int op_div(int i, int j);
-int op_mod(int i, int j);
+int op_add(int a, int b);
+int op_sub(int a, int b);
+int op_mul(int a, int b);
+int op_div(int a, int b);
+int op_mod(int a, int b);
 
 /**
  * op_add - Returns the sum of two numbers.
- * @i: first number
- * @j: second number
+ * @a: first number
+ * @b: second number
  * Return: sum
  */
-int op_add(int i, int j)
+int op_add(int a, int b)
 {
-	return (i + j);
+	return (a + b);
 }
 /**
  * op_sub - return subraction
- * @i: first number
- * @j: second number
+ * @a: first number
+ * @b: second number
  * Return: subraction
  */
-int op_sub(int i, int j)
+int op_sub(int a, int b)
 {
-	return (i - j);
+	return (a - b);
 }
 /**
  * op_mul - return muliplication
- * @i: first number
- * @j: second number
+ * @a: first number
+ * @b: second number
  * Return: multiplication
  */
-int op_mul(int i, int j)
+int op_mul(int a, int b)
 {
-	return (i * j);
+	return (a * b);
 }
 /**
  * op_div - return division
- * @i: first number
- * @j: second number
+ * @a: first number
+ * @b: second number
  * Return: division 
  */
-int op_div(int i, int j)
+int op_div(int a, int b)
 {
-	return (i / j);
+	return (a / b);
 }
 /**
  * op_mod - return remainder
- * @i: The first number
- * @j: second number
+ * @a: The first number
+ * @b: second number
  * Return: remainder
  */
-int op_mod(int i, int j)
+int op_mod(int a, int b)
 {
-	return (i % j);
+	return (a % b);
 }
