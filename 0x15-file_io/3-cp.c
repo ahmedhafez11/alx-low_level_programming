@@ -39,16 +39,16 @@ int main(int argnum, char *arg[])
 	}
 	filefrom = open(arg[1], O_RDONLY);
 	fileto = open(arg[2], O_CREAT | O_WRONLY | O_TRUNC | O_APPEND, 0664);
-	file_error(filefrom, fileto, arg);
+	error_file(filefrom, fileto, arg);
 	char_num = 1024;
 	while (char_num == 1024)
 	{
 		char_num = read(filefrom, chr, 1024);
 		if (char_num == -1)
-			file_error(-1, 0, arg);
+			error_file(-1, 0, arg);
 		c = write(fileto, chr, char_num);
 		if (c == -1)
-			file_error(0, -1, arg);
+			error_file(0, -1, arg);
 	}
 	error = close(filefrom);
 	if (error == -1)
