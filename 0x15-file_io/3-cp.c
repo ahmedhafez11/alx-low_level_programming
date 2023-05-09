@@ -58,13 +58,12 @@ int main(int argc, char *argv[])
 	do {
 		if (file_from == -1 || n == -1)
 		{
-			dprintf(STDERR_FILENO,
-				"Error: Can't read from file %s\n", argv[1]);
+			dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]);
 			free(buf);
 			exit(98);
 		}
 
-		m = write(to, buf, n);
+		m = write(file_to, buf, n);
 		if (file_to == -1 || m == -1)
 		{
 			dprintf(STDERR_FILENO,
