@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * append_text_to_file - add text to the lsat part of file 
+ * append_text_to_file - add text to the lsat part of file
  * @filename: pointer
  * @text_content:the content of text
  * Return: 1 or -1
